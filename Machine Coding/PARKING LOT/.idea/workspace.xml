@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77429de3-66b4-4359-ac95-0a919478d9c4" name="Changes" comment="" />
+    <list default="true" id="77429de3-66b4-4359-ac95-0a919478d9c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/VendingStates/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/VendingStates/impl/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/VendingStates/impl/HasMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/VendingStates/impl/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/VendingStates/impl/SelectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/models/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/models/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/models/ItemShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/models/ItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine/src/main/java/vending/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +40,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/SCALER/System Design/Machine Coding/bookmyshow",
+    "last_opened_file_path": "E:/SCALER/System Design/Machine Coding/PARKING LOT",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",

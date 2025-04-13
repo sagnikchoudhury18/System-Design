@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="758cacad-53e3-4ee5-9ed3-424dbff167d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/~$EATIONAL DESIGN PATTERN.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/Observable/IphoneObservableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/Observable/StockObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/Observor/EmailAlertObservorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/Observor/MobileAlertObservorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/Observor/NotificationAlertObservor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/ObservorPattern/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/VendingStates/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/VendingStates/impl/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/VendingStates/impl/HasMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/VendingStates/impl/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/VendingStates/impl/SelectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/models/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/models/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/models/ItemShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/models/ItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Machine Coding/VendingMachine/src/main/java/vending/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL DESIGN PATTERN.docx" beforeDir="false" afterPath="$PROJECT_DIR$/BEHAVIORAL DESIGN PATTERN.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Behavioral.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Behavioral.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Machine Coding/PARKING LOT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Machine Coding/PARKING LOT/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
