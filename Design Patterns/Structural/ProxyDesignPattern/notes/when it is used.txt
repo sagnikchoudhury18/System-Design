@@ -1,0 +1,3 @@
+1. Whenever there is a need for access restriction.
+2. if there is a caching needed
+3. if there a need for preprocessing or post processing

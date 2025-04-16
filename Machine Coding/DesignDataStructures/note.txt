@@ -1,0 +1,60 @@
+1. Each key is hashed using a hash function, and the result (hash code) determines the bucket where the value will be stored.
+
+HashCode: When you insert a key, the hashCode() method of the key object is used to generate a hash. The hash is then mapped to a bucket index.
+
+If multiple keys hash to the same bucket index, it is called a collision.
+
+2. Default Size:
+The default initial capacity of a HashMap is 16.
+
+It’s important to note that the initial capacity can be adjusted during HashMap creation if needed.
+
+java
+Copy
+Edit
+Map<String, String> map = new HashMap<>(16);
+Capacity refers to the number of buckets in the internal array.
+
+3. Load Factor:
+The load factor is a measure of how full the HashMap can get before it resizes.
+
+The default load factor is 0.75, which means when the map is 75% full, it will resize.
+
+Formula for Resize Threshold:
+
+java
+Copy
+Edit
+Threshold = (Capacity) * (Load Factor)
+This ensures that HashMap maintains a balance between time and space efficiency. A lower load factor results in more space and fewer collisions but higher memory usage.
+
+4. Resizing:
+HashMap resizes (doubles the capacity) when the number of entries exceeds the threshold defined by load factor × capacity.
+
+Resizing helps in maintaining an optimal performance for operations like get() and put(), ensuring constant-time complexity (O(1)) in most cases.
+
+5. Collision:
+Collision occurs when two keys have the same hash code and thus map to the same bucket.
+
+To resolve collisions, HashMap uses two strategies:
+
+Chaining: Stores multiple entries in the same bucket using a linked list or tree structure.
+
+Open Addressing: Not used by HashMap, but it’s another method of handling collisions.
+
+6. Buckets:
+A bucket is essentially an array of entries that share the same hash code.
+
+Each bucket can store multiple key-value pairs if there are collisions. The way collisions are handled depends on the implementation (e.g., chaining or tree bins).
+
+7. Chaining (Linked List / Tree Structure):
+Chaining refers to the method of storing multiple entries in the same bucket using a linked list or balanced tree (from Java 8 onwards).
+
+Linked List: If collisions are minimal, it simply forms a chain of linked nodes.
+
+Tree Structure: If a bucket contains more than 8 entries (after Java 8), it switches to a red-black tree to maintain efficiency.
+
+8. Tree Factor (TreeBins) / Tree Structure:
+If the number of elements in a bucket exceeds 8, HashMap will convert the linked list to a tree bin (red-black tree).
+
+Treemap factor helps in converting the linked list of entries into a tree to improve lookup time (O(log n)) for large collisions.
