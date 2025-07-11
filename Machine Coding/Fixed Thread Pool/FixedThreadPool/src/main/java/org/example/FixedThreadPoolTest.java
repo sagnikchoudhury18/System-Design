@@ -6,14 +6,19 @@ public class FixedThreadPoolTest {
 
         for (int i = 0; i < 10; i++) {
             final int taskId = i;
-            threadPool.submit(() -> {
-                System.out.println(Thread.currentThread().getName() + " is executing task " + taskId);
-                try {
-                    Thread.sleep(1000); // Simulate work
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt();
+
+            Runnable task = new Runnable() {
+                public void run() {
+                    System.out.println(Thread.currentThread().getName() + " is executing task " + taskId);
+                    try {
+                        Thread.sleep(1000); // Simulate work
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                    }
                 }
-            });
+            };
+
+            threadPool.submit(task);
         }
 
         // Give time for threads to finish
